@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>demo css</title>
+    <style>
+        div
+        {
+            height: 180px;
+            width: 180px;
+            transition: 2s;
+            background-color: rgb(255, 216, 45);
+                       
+        }
+        #translstediv:hover
+         {
+            transform:translate(500px,500px);
+            background-color:rgb(255, 230, 0);
+            color:rgb(102, 186, 38); 
+        
+         }
+         #rotate:hover{
+            transform: rotate(360deg);
+            background-color: rgb(122, 216, 233);
+
+         }
+        #rotate3d:hover{
+            transform: rotate3d(1,1,1,360deg);
+            background-color: rgb(179, 129, 205);
+        }
+        #skew:hover{
+            transform: skew(90deg);
+            background-color: rgb(201, 215, 144);
+        }
+        #TextShadowDiv:hover
+            {
+                text-shadow:10px 10px 0px rgb(224, 175, 175);
+                /* background-color: aquamarine5; */
+            }
+        #over:hover{
+            overflow: auto;
+        }  
+    </style>
+</head>
+<body>
+     <div id="translstediv">translate</div><hr>
+     <div id="rotate" >rotate</div><hr>
+     <div id="rotate3d">rotate 3d</div><hr>
+     <div id="skew">skew</div><hr>
+     <div id="TextShadowDiv">TextShadowDiv</div><hr>
+    <div id="over">overfl0w
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga esse perspiciatis, possimus eaque, corporis aliquid dolorem atque laudantium doloremque assumenda quae recusandae. Odio rem corporis fugiat magnam? Cupiditate sed odit quam soluta ea et?
+    </div>
+</body>
+</html>

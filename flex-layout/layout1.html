@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>layout 1</title>
+ <style>
+        .container {
+            margin: 3rem 8rem;
+        }
+
+        #logo {
+            background-color: rgb(160, 201, 206);
+            padding: 3% 5%;
+            font-size: large;
+            font-weight: bold;
+
+        }
+
+        #nav {
+            background-color: rgb(160, 201, 206);
+            text-align: center;
+            padding: 0.5% 0;
+            font-size: large;
+            font-weight: bold;
+        }
+       
+        #header {
+            background-color: rgb(160, 201, 206);
+            font-size: large;
+            font-weight: bold;
+            padding: 10%;
+            text-align: center;
+        }
+        .con1{
+            position: relative;
+            display: flex;
+            
+        }
+
+        #sidebar {
+            background-color: rgb(160, 201, 206);
+            height: 50vh;
+            width: 39vh;
+            margin-right: 2%;
+            display: grid;
+            place-items: center;
+            font-size: large;
+            font-weight: bold;
+
+        }
+
+        #bodyarea {
+            background-color: rgb(160, 201, 206);
+            height: 50vh;
+            width: 88%;
+            display: grid;
+            place-items: center;
+            font-size: large;
+            font-weight: bold;
+        
+        }
+
+        #footer {
+            background-color: rgb(160, 201, 206);
+            text-align: center;
+            padding: 0.5% 0;
+            font-size: large;
+            font-weight: bold;
+
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div id="logo">logo</div><br>
+        <div id="nav">navigation</div><br>
+        <div id="header">header</div><br>
+        <div class="con1">
+            <div id="sidebar">sidebar</div><br>
+            <div id="bodyarea">body area</div><br>
+        </div><br>
+        <div id="footer">footer</div><br>
+    </div>
+</body>
+</html>
